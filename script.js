@@ -1,7 +1,7 @@
 async function getdata(val) {
     try {
         const info = await fetch(
-            `http://apilayer.net/api/validate?access_key=729e9c38982f05479ebf1da389deacf0&number=+91${val}`);
+            `http://apilayer.net/api/validate?access_key=e6f6501f2f49721dd209614d430a842e&number=+91${val}`);
         const data = await info.json();
 
         // console.log(data);
